@@ -16,7 +16,7 @@ int main() {
 
     int is_palindrome = (d1 == d4) && (d2 == d3);
 
-    printf("Число %d %sявляется перевертышем.\n",
+    printf("Число %d %sявляется перевертышем\n",
         number,
         is_palindrome ? "" : "НЕ ");
 
