@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="gr6xrodgdsrSGkiEc6QM">
+    <mxGraphModel dx="1414" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_pwNNAu-a0IOx3vRxd3u-5" edge="1" parent="1" source="_pwNNAu-a0IOx3vRxd3u-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_pwNNAu-a0IOx3vRxd3u-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_pwNNAu-a0IOx3vRxd3u-1" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;br&gt;Ввод:number&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="208" x="310" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_pwNNAu-a0IOx3vRxd3u-6" edge="1" parent="1" source="_pwNNAu-a0IOx3vRxd3u-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_pwNNAu-a0IOx3vRxd3u-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_pwNNAu-a0IOx3vRxd3u-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Вычисления цифр:&lt;div&gt;d1=number%1000&lt;/div&gt;&lt;div&gt;d2=(number/100)%10&lt;/div&gt;&lt;div&gt;d3=(number/10)%10&lt;/div&gt;&lt;div&gt;d4=number%10&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="314" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_pwNNAu-a0IOx3vRxd3u-7" edge="1" parent="1" source="_pwNNAu-a0IOx3vRxd3u-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_pwNNAu-a0IOx3vRxd3u-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_pwNNAu-a0IOx3vRxd3u-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Вычисление:&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt;&quot;&gt;is_palindrome = &lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font&gt;(&lt;/font&gt;d1 == d4) and (d2 == d3)&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="200" x="314" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="_pwNNAu-a0IOx3vRxd3u-4" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Вывод результата:&lt;/div&gt;&lt;div&gt;&lt;pre style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt;&quot;&gt;&lt;span style=&quot;color:#0000ff&quot;&gt;is_palindrome&lt;/span&gt; ? &lt;span style=&quot;color:#a31515&quot;&gt;&quot;&quot;&lt;/span&gt; : &lt;span style=&quot;color:#a31515&quot;&gt;&quot;НЕ &quot;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="216" x="306" y="545" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
